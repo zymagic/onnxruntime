@@ -44,6 +44,10 @@
 	"features": {
 		"git": "os-provided",
 		"python": "os-provided",
-		"powershell": "7.1"
-	}
+		"powershell": "7.1",
+		"docker-in-docker": {
+            "version": "latest"
+        }
+	},
+	"privileged": true
 }
